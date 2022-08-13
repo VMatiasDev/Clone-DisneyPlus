@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Avenir";
+    src: url("avenir.otf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Avenir', sans-serif;
+    background: url('bg.jpg') no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: rgba(0,0,0,.8);
+    text-decoration: none;
+    padding: 16px;
+    border: 1px solid #f9f9f9;
+    border-radius: 4px;
+    color: #f9f9f9;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 42px;
+    transition: all .2s ease 0s;
+}
+
+.btn:hover {
+    background-color: #f9f9f9;
+    color: #000;
+}
+
+.logo {
+    max-width: 320px;
+    margin-left: 160.5px;
+}
+
+.geral {
+    padding-left: 107.5px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    color: #f9f9f9;
+    margin-bottom: 32px;
+    margin-left: 72.5px;
+}
+
+.botao {
+    background: #6421ff;
+    border-radius: 4px;
+    margin-top: 32px;
+    width: 575px;
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    padding: 20.5px 33px;
+    transition: all .2s ease 0s;
+}
+
+.botao a {
+    color: #f9f9f9;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.botao:hover {
+    filter: brightness(1.2);
+}
